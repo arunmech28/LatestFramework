@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="8" total="9" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="20721" started-at="2018-07-03T15:49:31Z" finished-at="2018-07-03T15:49:51Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="20721" started-at="2018-07-03T15:49:31Z" finished-at="2018-07-03T15:49:51Z">
+      <class name="Application.Suite.AutomationTestSuite">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Application.Suite.AutomationTestSuite@29774679]" name="setup" is-config="true" duration-ms="16" started-at="2018-07-03T21:19:31Z" finished-at="2018-07-03T21:19:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="reportsetup()[pri:0, instance:Application.Suite.AutomationTestSuite@29774679]" name="reportsetup" is-config="true" duration-ms="136" started-at="2018-07-03T21:19:31Z" finished-at="2018-07-03T21:19:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportsetup -->
+        <test-method status="PASS" signature="driverstartup(java.lang.reflect.Method)[pri:0, instance:Application.Suite.AutomationTestSuite@29774679]" name="driverstartup" is-config="true" duration-ms="4695" started-at="2018-07-03T21:19:31Z" finished-at="2018-07-03T21:19:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Application.Suite.AutomationTestSuite.Test_AngularJs()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverstartup -->
+        <test-method status="PASS" signature="Test_AngularJs()[pri:0, instance:Application.Suite.AutomationTestSuite@29774679]" name="Test_AngularJs" duration-ms="10589" started-at="2018-07-03T21:19:35Z" finished-at="2018-07-03T21:19:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_AngularJs -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:Application.Suite.AutomationTestSuite@29774679]" name="getResult" is-config="true" duration-ms="2" started-at="2018-07-03T21:19:46Z" finished-at="2018-07-03T21:19:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Test_AngularJs status=SUCCESS method=AutomationTestSuite.Test_AngularJs()[pri:0, instance:Application.Suite.AutomationTestSuite@29774679] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void Application.Suite.AutomationTestSuite.Test_AngularJs()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="endReport()[pri:0, instance:Application.Suite.AutomationTestSuite@29774679]" name="endReport" is-config="true" duration-ms="5293" started-at="2018-07-03T21:19:46Z" finished-at="2018-07-03T21:19:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- Application.Suite.AutomationTestSuite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
